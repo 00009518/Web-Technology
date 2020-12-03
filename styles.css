@@ -1,0 +1,129 @@
+:root {
+    --fontFamily: 'Sansita Swashed', cursive;
+    --logo: 'Niconne', cursive;
+    --bottomText: 'Antic Slab', serif;
+}
+* {
+padding: 0;
+margin: 0;
+
+}
+body {
+    background: rgb(240, 204, 204);
+    
+}
+#Logo{
+    font-family: var(--logo);
+    font-size: 3rem;
+    color:  rgb(246, 250, 0);
+    border-radius: 70em;   
+    background-color: rgb(134, 55, 55);
+    color:  rgb(246, 250, 0);
+    }
+
+    #Logo2{
+    font-family: var(--logo);
+    font-size: 3rem;
+    color:  rgb(246, 250, 0);
+    border-radius: 70em;   
+    background-color: rgb(134, 55, 55);
+    color:  rgb(246, 250, 0);
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    }
+nav {
+    text-align: center;
+    font-size: 2rem;
+    
+
+}
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    display: inline-flex;
+    
+    
+}
+li {
+    text-decoration: none;
+    display: flex;
+    
+    
+}
+
+li a {
+    display: block;
+    color:rgb(82, 30, 58);
+    text-align: center;
+    padding: 14px 16px;
+    margin: 10px;
+    
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color:wheat;
+    /*transform: translateY(-5px);*/
+  }
+
+#motto {
+    font-family:var(--fontFamily);
+    text-align: center;
+    font-size: 4.8rem;
+    color: rgb(119, 49, 49);
+    word-spacing: 30px;
+    text-shadow: 2px 2px grey;
+    margin-top: 150px;
+}
+.main {
+    width: 85%;
+    height: 650px;
+    margin: auto;
+    background-image: url("https://images.unsplash.com/photo-1559456751-057ed03f3143?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=776&q=80v");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+/*color: rgb(184, 79, 79);
+color: rgb(143, 60, 60);*/
+.second {
+    height: 200px;
+    width: 85%;
+    background-color: turquoise;
+}
+footer {
+    width: 85%;
+    height: 170px; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(230, 212, 212); /* light green */
+    margin: auto;
+    border-radius: 1em; /* this is a rounded corner */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding-top: 10px;}
+    
+    #certificate {
+    width: 30%;
+    height: 150px;
+    float: left;
+    font-family: var(--bottomText);
+    
+    }
+     #telephone {
+    width: 30%;
+    height: 150px;
+    float: right;
+    padding-left: 70px;
+    padding-top: 60px;
+font-family: var(--bottomText);
+color: rgb(70, 29, 29); } /* The end of home page */
+    
+    
