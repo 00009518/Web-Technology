@@ -9,21 +9,89 @@
 <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Sansita+Swashed:wght@300;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
     <title>Booking</title>
+    
 </head>
 
-<body>
+<body style="background-image: url(https://barbarashdwallpapers.com/wp-content/uploads/2015/07/Light-pink-wallpaper-with-flowers-1.jpg);" > 
     <header>
         <nav class=navHeader>
             <ul> 
                 <li id="Logo" ><a href="index.html" style="color: rgb(246, 250, 0);">Event</a></li>
                 <li><a href="About.html">About</a></li>
-                <li><a href="News.html">News</a></li>
+                <li><a href="News.html">Our Team</a></li>
                 <li><a class="active" href="Services.html">Booking</a></li>
                 <li><a href="Gallery.html">Gallery</a></li>
                 <li><a href="Contacts.html">Contacts</a></li>
                </ul>
        </nav>
        </header>
+<section class="booking">
+       <div class="container">
+        <div class="container-text">
+        
+        <hr>
+        <h3 class="heading-days">Wedding</h3>
+        <p>1 hour = $150</p>
+        <hr>
+        <h3 class="heading-days">Birthday</h3>
+        <p>1 hour = $100</p>
+        <hr>
+        <h3 class="heading-days">Cooperate Events</h3>
+        <p>1 hour = $200</p>
+        <hr>
+        <button class="btn">Submit</button>
+        
+        </div>
+        
+        <div class="container-form">
+        <form action="#" class="bookingform">
+        <!-- <h2 class="heading heading-yellow">Reservation Online</h2>-->
+        
+        <div class="form-field">
+        <p>Your Name</p>
+        <input type="text" placeholder="Your Name">
+        </div>
+        <div class="form-field">
+        <p>Your email</p>
+        <input type="email" placeholder="Your email">
+        </div>
+        <div class="form-field">
+        <p>Date</p>
+        <input type="date">
+        </div>
+    
+        <div class="form-field">
+        <p>How many people?</p>
+        <select name="select" id="#">
+        <option value="1">up to 50</option>
+        <option value="2">up to 100</option>
+        <option value="3">up to 150</option>
+        <option value="4">200 more</option>
+        </select>
+        </div>
+        
+        <div class="form-field">
+            <p>Event type</p>
+            <select name="select" id="#">
+            <option value="1">Wedding</option>
+            <option value="2">Birthday</option>
+            <option value="3">Cooperative</option>
+            <option value="4">Public Event</option>
+            <option value="5">Other</option>
+            </select>
+            </div>
+
+        
+        </form>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+
 
        <footer>
    
@@ -45,11 +113,6 @@
     
         </div>
         </footer>
-        <script>
-            let ratio=document.getElementById('')
-            window.addEventListener('resize', () {
-                ration.textContent='Device pixel ration: ${window.devicePixelRatio }'
-            })
-        </script>
+        
     </body>
     </html>
